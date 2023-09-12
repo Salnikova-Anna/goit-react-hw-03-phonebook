@@ -1,0 +1,16 @@
+.contactList {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.deleteButton {
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #4e504f;
+  background-color: transparent;
+}
+
+.contactItem:not(:last-child) {
+  margin-bottom: 5px;
+}
